@@ -5,9 +5,67 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(253, 253, 253);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  width: 220px;
+  height: 300px;
+  background-color: #b0bdbbf6;
+  color: #f5f8f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 6px 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.center input {
+  margin-right: 10px;
+}
+
+.newBtn {
+  background-color: #c1d5d2f6;
+  border-radius: 50%;
+  padding: 6px 8px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+.newBtn:hover {
+  background-color: rgba(11, 160, 155, 0.664);
+}
+
+.oList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: left; /* Align the text to the left */
+}
+
+.oList li {
+  margin-bottom: 8px;
 }
